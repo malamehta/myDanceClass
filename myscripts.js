@@ -79,7 +79,7 @@ $(document).ready(function(){
   }
   //============================mobile number=========================
   if(mb==""){
-      document.getElementById('mobile').innerHTML="**please fill the lastname field";
+      document.getElementById('mobile').innerHTML="**please fill the number field";
       return false;
   }
   if(mb.length<10 || mb.length>10){
